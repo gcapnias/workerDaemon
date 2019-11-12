@@ -1,0 +1,9 @@
+[Unit]
+Description=Worker Daemon
+
+[Service]
+Type=notify
+ExecStart=/home/gcapnias/repos/workerDaemon/bin/Debug/netcoreapp3.0/workerDaemon
+
+[Install]
+WantedBy=multi-user.target
